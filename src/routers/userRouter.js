@@ -13,7 +13,7 @@ router.post(
     userController.createUserController
 );
 router.post(
-    '//login',
+    '/login',
     userController.loginController
 );
 router.use(authMiddleware)
